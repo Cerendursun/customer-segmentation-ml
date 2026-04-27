@@ -34,7 +34,7 @@ Müşteriler;
 
 ## 🚀 Projeyi Çalıştırma
 
-```bash
+``bash
 streamlit run app.py
 
 
