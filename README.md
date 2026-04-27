@@ -1,15 +1,30 @@
 # 🛍️ Müşteri Segmentasyonu (K-Means Clustering)
 
-Bu proje, K-Means makine öğrenmesi algoritması kullanılarak müşterilerin davranışlarına göre segmentlere ayrılmasını amaçlamaktadır.
+## 🚀 Canlı Demo
+👉 https://customer-segmentation-ml-cb2bxyu3emhjasuuxp8ur4.streamlit.app/
+
+---
+
+## 📸 Preview
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6f9fd3fa-015c-4e0c-a151-12e54a9eaf70" width="48%" />
+  <img src="https://github.com/user-attachments/assets/0046c5dd-dc59-424e-95d0-51105802a1e2" width="48%" />
+</p>
+
+---
 
 ## 🎯 Projenin Amacı
 
-Müşteriler;
-- yaş
-- yıllık gelir
-- harcama skoru
+Müşteriler aşağıdaki özelliklere göre gruplandırılır:
 
-özelliklerine göre gruplandırılarak benzer davranış gösteren müşteri segmentleri oluşturulur.
+- Yaş
+- Yıllık gelir
+- Harcama skoru
+
+Amaç, benzer davranış gösteren müşteri segmentlerini keşfetmektir.
+
+---
 
 ## 🧠 Kullanılan Teknolojiler
 
@@ -19,23 +34,26 @@ Müşteriler;
 - Streamlit
 - Plotly
 
-## ⚙️ Kullanılan Yöntem
+---
+
+## ⚙️ Yöntem
 
 - K-Means Clustering (Unsupervised Learning)
 - Elbow Method ile optimum cluster sayısı belirleme
 - 3D veri görselleştirme
 
-## 📊 Proje Özellikleri
+---
+
+## 📊 Özellikler
 
 - Müşteri verilerinin analizi
 - Otomatik cluster oluşturma
-- İnteraktif Streamlit web arayüzü
-- 3D görselleştirme ile veri inceleme
+- İnteraktif Streamlit arayüzü
+- 3D görselleştirme
 
-## 🚀 Projeyi Çalıştırma
+---
 
+## ▶️ Çalıştırma
+
+```bash
 streamlit run app.py
-
-
-<img width="1919" height="901" alt="Ekran görüntüsü 2026-04-27 175518" src="https://github.com/user-attachments/assets/6f9fd3fa-015c-4e0c-a151-12e54a9eaf70" />
-<img width="1919" height="907" alt="Ekran görüntüsü 2026-04-27 175501" src="https://github.com/user-attachments/assets/0046c5dd-dc59-424e-95d0-51105802a1e2" />
